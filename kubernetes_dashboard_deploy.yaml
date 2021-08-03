@@ -1,1 +1,7 @@
+Deploying the Dashboard UI 
+
+The Dashboard UI is not deployed by default. To deploy it, run the following command:
+
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
+
+Ref link https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
