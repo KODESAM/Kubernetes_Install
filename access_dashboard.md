@@ -1,4 +1,4 @@
-https://<ip-address>:<nodePort-of-ingress-controller>
+# https://<ip-address>:<nodePort-of-ingress-controller>
 
 ----example---------------
 NAME                                         TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)                      AGE
