@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: block-pv
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+       path: /datadir
+       
+  ----
+  
+  ### Change ownership of datadir created on VM to 472 as per grafana deployment security groups ####
+  
+ vm$ chown -R 472 /datadir
